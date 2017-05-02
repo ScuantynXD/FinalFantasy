@@ -1,0 +1,118 @@
+.AngularJS, .Laravel, .Wordpress, .NodeJS, .Ionic, .VectorSmartObject, .Icon, .Icon2, .icon3, .icon4, .icon5, .icon6, .facebook, .twitter, .linked, .google, .iphone, .mouse, .Mockup{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.AngularJS{
+	background-position: -213px -15px ;
+	width: 76px;
+	height: 76px;
+}
+
+.Laravel{
+	background-position: -17px -25px ;
+	width: 70px;
+	height: 51px;
+}
+
+.Wordpress{
+	background-position: -116px -17px ;
+	width: 63px;
+	height: 64px;
+}
+
+.NodeJS{
+	background-position: -324px -20px ;
+	width: 52px;
+	height: 57px;
+}
+
+.Ionic{
+	background-position: -416px -19px ;
+	width: 62px;
+	height: 62px;
+}
+
+.VectorSmartObject{
+	background-position: -531px -34px ;
+	width: 38px;
+	height: 33px;
+}
+
+.Icon{
+	background-position: -27px -123px ;
+	width: 40px;
+	height: 58px;
+}
+
+.Icon2{
+	background-position: -121px -119px ;
+	width: 59px;
+	height: 58px;
+}
+
+.icon3{
+	background-position: -219px -122px ;
+	width: 58px;
+	height: 51px;
+}
+
+.icon4{
+	background-position: -311px -117px ;
+	width: 80px;
+	height: 73px;
+}
+
+.icon5{
+	background-position: -415px -113px ;
+	width: 66px;
+	height: 80px;
+}
+
+.icon6{
+	background-position: -511px -114px ;
+	width: 80px;
+	height: 80px;
+}
+
+.facebook{
+	background-position: -26px -230px ;
+	width: 41px;
+	height: 41px;
+}
+
+.twitter{
+	background-position: -28px -331px ;
+	width: 41px;
+	height: 41px;
+}
+
+.linked{
+	background-position: -26px -422px ;
+	width: 41px;
+	height: 41px;
+}
+
+.google{
+	background-position: -131px -227px ;
+	width: 41px;
+	height: 41px;
+}
+
+.iphone{
+	background-position: -102px -362px ;
+	width: 87px;
+	height: 105px;
+}
+
+.mouse{
+	background-position: -126px -287px ;
+	width: 39px;
+	height: 49px;
+}
+
+.Mockup{
+	background-position: -207px -192px ;
+	width: 433px;
+	height: 288px;
+}
+
