@@ -41,7 +41,7 @@ nav > a {
 	width: 123px;
 	line-height: 60px;
 	float: left;
-	transition: 1s;
+	/*transition: 1s;*/
 }
 .list:hover {
 	background-color: #293449;
@@ -50,9 +50,12 @@ nav > a {
 	width: 202px;
 	line-height: 60px;
 	float: left;
-	transition: 1s;
+	/*transition: 1s;*/
 }
 .list2:hover {
 	background-color: #293449;
+}
+a:active {
+	color: #868c95;
 }
 
