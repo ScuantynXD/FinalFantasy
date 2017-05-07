@@ -2,6 +2,10 @@
 	font-family: "cuprum";
 	src: url("../css/cuprum.ttf");
 }
+@font-face {
+	font-family: "cuprum-italic";
+	src: url("../css/cuprum-italic.ttf");
+}
 html {
 	margin: 0px;
 	padding: 0px;
@@ -27,6 +31,7 @@ header {
 	width: 1070px;
 	height: 42px;
 	padding-left: 130px;
+	margin-bottom: 0px;
 	background-color: #32425c;
 }
 .logo {
@@ -140,7 +145,41 @@ input[placeholder]:focus {
 .buy:hover {
 	background-color: #5fbb2d;
 }
+.middleheader {
+	position: relative;
+	top: -17px;
+	width: 940px;
+	margin: 0px auto;
+}
+.mag {
+	width: 213px;
+	height: 70px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: center;
+	font-family: "cuprum-italic";
+	font-size: 18px;
+	color: #ee3643;
+	padding: 50px;
+	padding-top: 40px;
+}
+.phonecall {
+	width: 313px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: center;
+}
+.authentication {
+	width: 313px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: center;
+}
 nav {
+	position: relative;
+	top: -17px;
 	width: 940px;
 	height: 55px;
 	margin: 0px auto;
