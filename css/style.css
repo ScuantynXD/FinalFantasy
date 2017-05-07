@@ -165,17 +165,78 @@ input[placeholder]:focus {
 }
 .phonecall {
 	width: 313px;
-	height: 160px;
+	height: 125px;
+	padding-top: 35px;
 	/*border: 1px solid red;*/
 	float: left;
 	text-align: center;
 }
+.phonecall > p {
+	font-family: "cuprum";
+	font-size: 15px;
+	color: #32425c;
+}
+.number {
+	width: 265px;
+	height: 40px;
+	margin: 0px auto;
+	border: 3px solid #ffffff;
+	color: #e9292a;
+	font-family: "cuprum";
+	font-size: 23px;
+	line-height: 1.7em;
+}
+.phone {
+	float: left;
+	position: relative;
+	top: 13px;
+	left: 35px;
+}
 .authentication {
-	width: 313px;
-	height: 160px;
-	/*border: 1px solid red;*/
+	width: 290px;
+	height: 125px;
+	padding-left: 23px;
+	padding-right: 0px;
+	padding-top: 35px;
+	border: 1px solid red;
 	float: left;
 	text-align: center;
+}
+.authentication:nth-child(1){
+	margin-right: 10px;
+}
+.enter {
+	width: 120px;
+	height: 45px;
+	background-color: #ffffff;
+	float: left;	
+	/*margin-right: 10px;*/	
+}
+.enter > p {
+	margin: 0px;
+	padding: 0px;
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.8em;
+}
+.login {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	top: 13px;
+	left: 15px;	
+}
+.reg {
+	width: 150px;
+	height: 45px;
+	background-color: #ffffff;
+	float: left;
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.8em;
 }
 nav {
 	position: relative;
