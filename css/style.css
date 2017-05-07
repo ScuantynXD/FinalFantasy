@@ -44,12 +44,20 @@ header {
 .logo:hover {
 	background-color: #ca2c37;
 }
+.mainfind {
+	float:left;
+}
+.srch {
+	float: left;
+	position: relative;
+	top: 13px;
+	left: 10px;
+}
 .find {
 	width: 230px;
 	height: 40px;
 	border: none;
 	outline: none;
-	float:left;
 }
 input[placeholder] {
 	font-size: 23px;
@@ -65,12 +73,48 @@ input[placeholder]:hover {
 .bookmark {
 	width: 150px;
 	height: 42px;
+	font-size: 23px;
+	font-family: "cuprum";
+	text-align: center;
 	float: left;	
+}
+.bookmark > p {
+	color:#ffffff;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.9em;
+}
+.bookmark:hover {
+	background-color: #212a3a;
 }
 .basket {
 	width: 150px;
 	height: 42px;
+	font-size: 23px;
+	font-family: "cuprum";
+	text-align: center;
 	float: left;
+}
+.basket > p {
+	color:#ffffff;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.9em;
+}
+.basket:hover {
+	background-color: #212a3a;
+}
+.bkm {
+	float: left;
+	position: relative;
+	top: 13px;
+	left: 10px;
+}
+.bsk {
+	float: left;
+	position: relative;
+	top: 13px;
+	left: 10px;
 }
 nav {
 	width: 940px;
