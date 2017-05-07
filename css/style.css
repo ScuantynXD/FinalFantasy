@@ -50,6 +50,9 @@ header {
 .logo:hover {
 	background-color: #ca2c37;
 }
+.logo:active {
+	background-color: #ba2732;
+}
 .mainfind {
 	float:left;
 }
@@ -102,6 +105,12 @@ input[placeholder]:focus {
 .bookmark:hover {
 	background-color: #212a3a;
 }
+.bookmark:active {
+	background-color: #161d29;
+}
+.bookmark > p:active {
+	color:#999ca1;
+} 
 .basket {
 	width: 150px;
 	height: 42px;
@@ -118,6 +127,12 @@ input[placeholder]:focus {
 }
 .basket:hover {
 	background-color: #212a3a;
+}
+.basket:active {
+	background-color: #161d29;
+}
+.basket > p:active {
+	color:#999ca1;
 }
 .bkm {
 	float: left;
@@ -144,6 +159,10 @@ input[placeholder]:focus {
 }
 .buy:hover {
 	background-color: #5fbb2d;
+}
+.buy:active {
+	color: #a4bf94;
+	background-color: #63a63e;
 }
 .middleheader {
 	position: relative;
@@ -220,6 +239,9 @@ input[placeholder]:focus {
 .enter > p:hover {
 	color: #ee3643;
 }
+.enter > p:active {
+	color: #b2b2b2;
+}
 .login {
 	margin: 0px;
 	padding: 0px;
@@ -240,6 +262,9 @@ input[placeholder]:focus {
 }
 .reg:hover {
 	color: #ee3643;
+}
+.reg:active {
+	color: #b2b2b2;
 }
 nav {
 	position: relative;
