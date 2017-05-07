@@ -24,8 +24,9 @@ header {
 	background-color: #f1f5f7;
 }
 .topnav {
-	width: 1200px;
+	width: 1070px;
 	height: 42px;
+	padding-left: 130px;
 	background-color: #32425c;
 }
 .logo {
@@ -69,8 +70,15 @@ input[placeholder] {
 	color: #111111;
 	/*transition: 0.5s linear;*/
 }
+::-webkit-input-placeholder {color:#f0f1f2;}
+::-moz-placeholder          {color:#f0f1f2;}
+:-moz-placeholder           {color:#f0f1f2;}
+:-ms-input-placeholder      {color:#f0f1f2;}
 input[placeholder]:hover {
 	background-color: #212a3a;
+}
+input[placeholder]:focus {
+	background-color: #ffffff;
 }
 .bookmark {
 	width: 150px;
@@ -118,6 +126,20 @@ input[placeholder]:hover {
 	top: 12px;
 	left: 10px;
 }
+.buy {
+	width: 150px;
+	height: 42px;
+	font-size: 23px;
+	color:#ffffff;
+	font-family: "cuprum";
+	text-align: center;
+	line-height: 1.8em;
+	float: left;
+	background-color: #63a63e;
+}
+.buy:hover {
+	background-color: #5fbb2d;
+}
 nav {
 	width: 940px;
 	height: 55px;
@@ -153,4 +175,3 @@ nav > a {
 a:active {
 	color: #868c95;
 }
-
