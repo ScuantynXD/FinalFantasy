@@ -50,25 +50,27 @@ header {
 .srch {
 	float: left;
 	position: relative;
-	top: 13px;
+	top: 11px;
 	left: 10px;
-}
-.find {
-	width: 230px;
-	height: 40px;
-	border: none;
-	outline: none;
+	z-index: 1;
 }
 input[placeholder] {
-	font-size: 23px;
-	padding-left: 20px;
+	position: relative;
+	top: -17px;
+	width: 270px;
+	height: 42px;
+	padding-left: 35px;
 	padding-right: 20px;
 	background-color: #293449;
-	font-family: "cuprum";
+	font-size: 23px;
+	font-family: "cuprum";		
+	border: none;
+	outline: none;
+	color: #111111;
 	/*transition: 0.5s linear;*/
 }
 input[placeholder]:hover {
-	background-color: #ffffff;
+	background-color: #212a3a;
 }
 .bookmark {
 	width: 150px;
@@ -82,7 +84,7 @@ input[placeholder]:hover {
 	color:#ffffff;
 	padding: 0px;
 	margin: 0px;
-	line-height: 1.9em;
+	line-height: 1.8em;
 }
 .bookmark:hover {
 	background-color: #212a3a;
@@ -99,7 +101,7 @@ input[placeholder]:hover {
 	color:#ffffff;
 	padding: 0px;
 	margin: 0px;
-	line-height: 1.9em;
+	line-height: 1.8em;
 }
 .basket:hover {
 	background-color: #212a3a;
@@ -107,13 +109,13 @@ input[placeholder]:hover {
 .bkm {
 	float: left;
 	position: relative;
-	top: 13px;
+	top: 12px;
 	left: 10px;
 }
 .bsk {
 	float: left;
 	position: relative;
-	top: 13px;
+	top: 12px;
 	left: 10px;
 }
 nav {
