@@ -6,6 +6,10 @@
 	font-family: "cuprum-italic";
 	src: url("../css/cuprum-italic.ttf");
 }
+@font-face {
+	font-family: "cuprum-bold";
+	src: url("../css/cuprum-bold.ttf");
+}
 html {
 	margin: 0px;
 	padding: 0px;
@@ -302,4 +306,239 @@ nav > a {
 }
 a:active {
 	color: #868c95;
+}
+.banner {
+	width: 940px;
+	margin: 0px auto;
+	/*height: 55px;*/
+}
+.materials {
+	width: 300px;
+	height: 123px;
+	background-color: #f6b22d;
+	float: left;
+	margin-top: 60px;
+	margin-right: 20px;
+}
+.materials > p {
+	position: relative;
+	top: -9px;
+	left: 25px;
+	font-family: "cuprum-bold";
+	font-size: 32px;
+	color: #ffffff;
+}
+.btn1 {
+	position: relative;
+	top: -32px;
+	left: 25px;
+	float: left;
+	width: 135px;
+	height: 38px;
+	background-color: #dda028;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	font-family: "cuprum";
+	font-size: 19px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.btn1:hover {
+	background-color: #cccccc;
+}
+.btn1:active {
+	background-color: #b2b2b2;
+}
+.mrt {
+	position: relative;
+	top: -67px;
+	left: 80px;
+}
+.new {
+	position: relative;
+	top: -107px;
+	left: 57px;
+}
+.tools {
+	margin-top: 60px;
+	margin-right: 20px;
+	width: 300px;
+	height: 123px;
+	background-color: #4aafde;
+	float: left;
+}
+.tools > p {
+	position: relative;
+	top: -9px;
+	left: 25px;
+	font-family: "cuprum-bold";
+	font-size: 32px;
+	color: #ffffff;
+}
+.tl {
+	position: relative;
+	top: -67px;
+	left: 60px;
+}
+.btn2 {
+	position: relative;
+	top: -32px;
+	left: 25px;
+	float: left;
+	width: 135px;
+	height: 38px;
+	background-color: #429dc7;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	font-family: "cuprum";
+	font-size: 19px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.btn2:hover {
+	background-color: #cccccc;
+}
+.btn2:active {
+	background-color: #b2b2b2;
+}
+.technics {
+	margin-top: 60px;
+	width: 300px;
+	height: 123px;
+	background-color: #cc79d1;
+	float: left;
+}
+.technics > p {
+	position: relative;
+	top: -9px;
+	left: 25px;
+	font-family: "cuprum-bold";
+	font-size: 32px;
+	color: #ffffff;
+}
+.tech {
+	position: relative;
+	top: -67px;
+	left: 60px;
+}
+.btn3 {
+	position: relative;
+	top: -32px;
+	left: 25px;
+	float: left;
+	width: 135px;
+	height: 38px;
+	background-color: #b76dbc;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	font-family: "cuprum";
+	font-size: 19px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.btn3:hover {
+	background-color: #cccccc;
+}
+.btn3:active {
+	background-color: #b2b2b2;
+}
+.slider {
+	width: 620px;
+	height: 266px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image: url("../img/slider1.png");
+}
+.sale {
+	margin-top: 20px;
+	width: 300px;
+	height: 123px;
+	background-color: #85d179;
+	float: left;
+}
+.sale > p {
+	position: relative;
+	top: -9px;
+	left: 25px;
+	font-family: "cuprum-bold";
+	font-size: 32px;
+	color: #ffffff;
+}
+.sl {
+	position: relative;
+	top: -67px;
+	left: 60px;
+}
+.btn5 {
+	position: relative;
+	top: -32px;
+	left: 25px;
+	float: left;
+	width: 135px;
+	height: 38px;
+	background-color: #77bc6d;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	font-family: "cuprum";
+	font-size: 19px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.btn5:hover {
+	background-color: #cccccc;
+}
+.btn5:active {
+	background-color: #b2b2b2;
+}
+.delivery {
+	margin-top: 20px;
+	width: 300px;
+	height: 123px;
+	background-color: #f6b22d;
+	float: left;
+}
+.delivery > p {
+	position: relative;
+	top: -9px;
+	left: 25px;
+	font-family: "cuprum-bold";
+	font-size: 32px;
+	color: #ffffff;
+}
+.dlv {
+	position: relative;
+	top: -67px;
+	left: 60px;
+}
+.btn6 {
+	position: relative;
+	top: -32px;
+	left: 25px;
+	float: left;
+	width: 135px;
+	height: 38px;
+	background-color: #dda028;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	font-family: "cuprum";
+	font-size: 19px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.btn6:hover {
+	background-color: #cccccc;
+}
+.btn6:active {
+	background-color: #b2b2b2;
 }
