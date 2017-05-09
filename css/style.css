@@ -958,3 +958,11 @@ a {
 .modalbtn:hover {
 	background-color: #293449;
 }
+.window {
+	position: relative;
+	top: 10px;
+	left: 240px;
+	/*width: 700px;*/
+	height: 310px;
+	border: 1px solid red;
+}
