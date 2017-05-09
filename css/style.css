@@ -666,6 +666,7 @@ a {
 	height: 316px;
 	margin-top: 20px;
 	margin-right: 20px; 
+	margin-bottom: 21px;
 	float: left;
 	text-align: center;
 	border: 2px solid #e5e5e5;
@@ -754,10 +755,142 @@ a {
 	margin: 0px auto;
 }
 .pricethrough4 {
-	/*margin: 0px;
-	padding: 0px;*/
+	margin: 27px;
+	/*padding: 0px;*/
 	font-family: "cuprum";
 	font-size: 23px;
 	color: #999999;
 	text-decoration: line-through;
+}
+.manufacture {
+	width: 940px;
+	margin: 0px auto;
+}
+.brand1 {
+	width: 214px;
+	height: 85px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 54px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand1:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand1:active {
+	opacity: 0.5;
+}
+.brand2 {
+	width: 214px;
+	height: 89px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 50px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand2:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand2:active {
+	opacity: 0.5;
+}
+.brand3 {
+	width: 214px;
+	height: 92px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 47px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand3:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand3:active {
+	opacity: 0.5;
+}
+.brand4 {
+	width: 214px;
+	height: 121px;
+	margin-top: 20px;
+	margin-right: 0px;
+	text-align: center;
+	padding-top: 18px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand4:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand4:active {
+	opacity: 0.5;
+}
+.brand5 {
+	width: 214px;
+	height: 84px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 55px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand5:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand5:active {
+	opacity: 0.5;
+}
+.brand6 {
+	width: 214px;
+	height: 104px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 35px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand6:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand6:active {
+	opacity: 0.5;
+}
+.brand7 {
+	width: 214px;
+	height: 114px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 25px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand7:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand7:active {
+	opacity: 0.5;
+}
+.brand8 {
+	width: 214px;
+	height: 104px;
+	margin-top: 20px;
+	margin-right: 0px;
+	text-align: center;
+	padding-top: 35px;
+	float: left;
+	border: 3px solid #e5e5e5; 
+}
+.brand8:hover {
+	box-shadow: 0px 0px 20px 2px gray;
+}
+.brand8:active {
+	opacity: 0.5;
 }
