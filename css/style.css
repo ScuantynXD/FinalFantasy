@@ -501,6 +501,7 @@ a:active {
 }
 .delivery {
 	margin-top: 20px;
+	margin-bottom: 53px;
 	width: 300px;
 	height: 123px;
 	background-color: #f6b22d;
@@ -541,4 +542,83 @@ a:active {
 }
 .btn6:active {
 	background-color: #b2b2b2;
+}
+.product {
+	width: 940px;
+	margin: 0px auto;
+}
+.popular {
+	width: 940px;
+	height: 90px;
+	margin: 0px auto;
+	background-color: #f7f3ec;
+}
+.popular > p {
+	display: block;
+	float: left;
+	margin-top: 24px;
+	margin-left: 30px;
+	margin-bottom: 0px;	
+	padding: 0px;
+	font-family: "cuprum";
+	font-size: 40px;
+	/*line-height: 1.8em;*/
+	text-transform: uppercase;
+	color: #32425c;
+}
+.popbtn {
+	position: relative;
+	top: 25px;
+	right: 24px;
+	width: 253px;
+	height: 38px;
+	float: right;
+	background-color: #ee3643;
+	font-family: "cuprum";
+	font-size: 19px;
+	line-height: 2.2em;
+	text-transform: uppercase;
+	color: #fde4e6;
+	text-align: center;
+	border-radius: 3px;	
+}
+a {
+	text-decoration: none;
+}
+.popbtn:hover {
+	background-color: #ca2c37;
+}
+.popbtn:active {
+	background-color: #ba2732;
+}
+.item {
+	width: 216px;
+	height: 316px;
+	margin-top: 20px;
+	text-align: center;
+	border: 2px solid #e5e5e5;
+}
+.item > p {
+	margin: 0px;
+	padding: 0px;
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #000000;
+}
+.pricethrough {
+	color: #999999;
+	text-decoration: line-through;
+}
+.price {
+	position: relative;
+	top: 0px;
+	left: 42px;
+	width: 140px;
+	height: 38px;
+	font-family: "cuprum";
+	font-size: 23px;
+	text-align: center;
+	line-height: 1.7em;
+	color: #ffffff;
+	background-image: url("../img/price.png");
 }
