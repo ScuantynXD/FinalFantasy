@@ -910,22 +910,37 @@ a {
 }
 .subservice {
 	position: relative;
-	top: 50px;
+	top: 30px;
 	width: 940px;
 	height: 420px;
 	margin: 0px auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .subservice > p {
 	margin: 0px;
 	padding: 0px;
 }
+.text1 {
+	font-family: "cuprum";
+	font-size: 40px;
+	line-height: 2em;
+	text-transform: uppercase;
+	color: #000000;
+}
+.text2 {
+	display: block;
+	font-family: "cuprum";
+	font-size: 17px;
+	line-height: 1.5em;
+	color: #000000;
+}
 .modal {
 	width: 240px;
-	height: 252px;
-	padding-top: 58px;
+	height: 250px;
+	margin-top: 10px;
+	padding-top: 60px;
+	float: left;
 	border: 1px solid red;
-	/*box-shadow: inset -3px 0px 3px 0px gray;*/
 }
 .modalbtn {
 	width: 217px;
@@ -939,4 +954,7 @@ a {
 	color: #ffffff;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
+}
+.modalbtn:hover {
+	background-color: #293449;
 }
