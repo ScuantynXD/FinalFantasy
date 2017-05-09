@@ -80,7 +80,6 @@ input[placeholder] {
 	border: none;
 	outline: none;
 	color: #111111;
-	/*transition: 0.5s linear;*/
 }
 ::-webkit-input-placeholder {color:#f0f1f2;}
 ::-moz-placeholder          {color:#f0f1f2;}
@@ -177,7 +176,6 @@ input[placeholder]:focus {
 .mag {
 	width: 213px;
 	height: 70px;
-	/*border: 1px solid red;*/
 	float: left;
 	text-align: center;
 	font-family: "cuprum-italic";
@@ -190,7 +188,6 @@ input[placeholder]:focus {
 	width: 313px;
 	height: 125px;
 	padding-top: 35px;
-	/*border: 1px solid red;*/
 	float: left;
 	text-align: center;
 }
@@ -221,7 +218,6 @@ input[placeholder]:focus {
 	padding-left: 33px;
 	padding-right: 0px;
 	padding-top: 35px;
-	/*border: 1px solid red;*/
 	float: left;
 	text-align: center;
 }
@@ -290,7 +286,6 @@ nav > a {
 	width: 123px;
 	line-height: 60px;
 	float: left;
-	/*transition: 1s;*/
 }
 .list:hover {
 	background-color: #293449;
@@ -299,7 +294,6 @@ nav > a {
 	width: 202px;
 	line-height: 60px;
 	float: left;
-	/*transition: 1s;*/
 }
 .list2:hover {
 	background-color: #293449;
@@ -310,7 +304,6 @@ a:active {
 .banner {
 	width: 940px;
 	margin: 0px auto;
-	/*height: 55px;*/
 }
 .materials {
 	width: 300px;
@@ -562,7 +555,6 @@ a:active {
 	padding: 0px;
 	font-family: "cuprum";
 	font-size: 40px;
-	/*line-height: 1.8em;*/
 	text-transform: uppercase;
 	color: #32425c;
 }
@@ -621,7 +613,6 @@ a {
 	border-radius: 3px;
 	cursor: pointer;
 	box-shadow: 0px 4px 0px 0px #367315;
-	/*z-index: -15;*/
 }
 .itembtn1:hover {
 	background-color: #5fbb2d;
@@ -646,7 +637,6 @@ a {
 	border-radius: 3px;
 	cursor: pointer;
 	border: 3px solid #63a63e;
-	/*z-index: -15;*/
 }
 .itembtn2:hover {
 	border: 3px solid #32425c;
@@ -657,8 +647,20 @@ a {
 }
 .pic1 {
 	position: relative;
-	/*z-index: 1;*/
+	
 }
+.pic2 {
+	position: relative;
+	top: 25px;	
+}
+.pic3 {
+	position: relative;
+	top: 15px;
+}
+.pic4 {
+	position: relative;
+	top: 25px;
+}	
 .item {
 	width: 216px;
 	height: 316px;
@@ -672,6 +674,15 @@ a {
 	box-shadow: 0px 0px 20px 2px gray;
 }
 .item:hover .pic1 {
+	display: none;
+}
+.item:hover .pic2 {
+	display: none;
+}
+.item:hover .pic3 {
+	display: none;
+}
+.item:hover .pic4 {
 	display: none;
 }
 .item:hover .itembtn1 {
@@ -724,6 +735,29 @@ a {
 }
 .itemnew {
 	position: relative;
-	top: 0px;
-	left: 0px;
+	top: -2px;
+	left: 80px;
+	z-index: 1;
+}
+.img4 {
+	position: relative;
+	top: -64px;
+	width: 215px;
+	height: 170px;
+	margin: 0px auto;
+	border: 1px solid #ffffff;
+}
+.caption4 {
+	position: relative;
+	top: -64px;
+	width: 216px;
+	margin: 0px auto;
+}
+.pricethrough4 {
+	/*margin: 0px;
+	padding: 0px;*/
+	font-family: "cuprum";
+	font-size: 23px;
+	color: #999999;
+	text-decoration: line-through;
 }
