@@ -778,6 +778,7 @@ a {
 }
 .brand1:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand1:active {
 	opacity: 0.5;
@@ -794,6 +795,7 @@ a {
 }
 .brand2:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand2:active {
 	opacity: 0.5;
@@ -810,6 +812,7 @@ a {
 }
 .brand3:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand3:active {
 	opacity: 0.5;
@@ -826,6 +829,7 @@ a {
 }
 .brand4:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand4:active {
 	opacity: 0.5;
@@ -842,6 +846,7 @@ a {
 }
 .brand5:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand5:active {
 	opacity: 0.5;
@@ -858,6 +863,7 @@ a {
 }
 .brand6:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand6:active {
 	opacity: 0.5;
@@ -874,6 +880,7 @@ a {
 }
 .brand7:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand7:active {
 	opacity: 0.5;
@@ -883,6 +890,7 @@ a {
 	height: 104px;
 	margin-top: 20px;
 	margin-right: 0px;
+	margin-bottom: 85px;
 	text-align: center;
 	padding-top: 35px;
 	float: left;
@@ -890,7 +898,45 @@ a {
 }
 .brand8:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 3px solid #ffffff;
 }
 .brand8:active {
 	opacity: 0.5;
+}
+.service {
+	width: 1200px;
+	height: 525px;
+	background-color: #f2f6f8;
+}
+.subservice {
+	position: relative;
+	top: 50px;
+	width: 940px;
+	height: 420px;
+	margin: 0px auto;
+	border: 1px solid red;
+}
+.subservice > p {
+	margin: 0px;
+	padding: 0px;
+}
+.modal {
+	width: 240px;
+	height: 252px;
+	padding-top: 58px;
+	border: 1px solid red;
+	/*box-shadow: inset -3px 0px 3px 0px gray;*/
+}
+.modalbtn {
+	width: 217px;
+	height: 60px;
+	padding-left: 23px;
+	background-color: #32425c;
+	text-align: left;
+	font-family: "cuprum-bold";
+	font-size: 26px;
+	line-height: 2.3em;
+	color: #ffffff;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
 }
