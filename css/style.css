@@ -46,7 +46,7 @@ header {
 	border-bottom: 5px solid #b52933;
 	text-transform: uppercase;
 	text-align: center;
-	line-height: 45px;
+	line-height: 1.9em;
 	font-family: "cuprum";
 	font-size: 24px;
 	color: 	#f1f2f4;
@@ -1066,4 +1066,28 @@ footer {
 	width: 1200px;
 	height: 106px;
 	background-color: #293449;
+}
+.navfooter1 {
+	width: 940px;
+	height: 63px;
+	margin: 0px auto;
+}
+.logo2 {
+	width: 220px;
+	height: 63px;
+	float: left;
+	background-color: #ee3643;
+	border-bottom: 5px solid #b52933;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.7em;
+	font-family: "cuprum";
+	font-size: 40px;
+	color: 	#f1f2f4;
+}
+.logo2:hover {
+	background-color: #ca2c37;
+}
+.logo2:active {
+	background-color: #ba2732;
 }
