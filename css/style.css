@@ -73,20 +73,19 @@ input[placeholder] {
 	width: 270px;
 	height: 42px;
 	padding-left: 35px;
-	padding-right: 20px;
-	background-color: #293449;
+	padding-right: 20px;	
+	background-color: #35425c;
 	font-size: 23px;
 	font-family: "cuprum";		
 	border: none;
 	outline: none;
-	color: #111111;
 }
 ::-webkit-input-placeholder {color:#f0f1f2;}
 ::-moz-placeholder          {color:#f0f1f2;}
 :-moz-placeholder           {color:#f0f1f2;}
 :-ms-input-placeholder      {color:#f0f1f2;}
 input[placeholder]:hover {
-	background-color: #212a3a;
+	background-color: #263041;
 }
 input[placeholder]:focus {
 	background-color: #ffffff;
@@ -603,6 +602,7 @@ a {
 	width: 135px;
 	height: 36px;
 	margin: 0px;
+	padding: 0px;
 	background-color: #63a63e;
 	color: #ffffff;
 	font-family: "cuprum";
@@ -962,7 +962,108 @@ a {
 	position: relative;
 	top: 10px;
 	left: 240px;
-	/*width: 700px;*/
+	width: 700px;
 	height: 310px;
 	border: 1px solid red;
+}
+.windowpic1 {
+	/*position: relative;
+	top: ;
+	left: -350px;*/
+}
+.info{
+	width: 1200px;
+	height: 538px;
+}
+.subinfo {
+	width: 940px;
+	height: 800px;
+	margin: 0px auto;
+}
+.infoleft {
+	width: 470px;
+	margin-top: 10px;
+	float: left;
+}
+.inforight {
+	width: 300px;
+	margin-top: 10px;
+	padding-left: 170px;
+	float: left;
+}
+.infobtn1 {
+	width: 220px;
+	height: 38px;
+	background-color: #ee3643;
+	border-radius: 3px;
+	font-family: "cuprum";
+	font-size: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	color: #fde4e6;
+}
+.infobtn1:hover {
+	background-color: #ca2c37;
+}
+.infobtn1:active {
+	background-color: #ba2732;
+}
+.infobtn2 {
+	width: 300px;
+	height: 38px;
+	background-color: #ee3643;
+	border-radius: 3px;
+	font-family: "cuprum";
+	font-size: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	color: #fde4e6;
+}
+.infobtn2:hover {
+	background-color: #ca2c37;
+}
+.infobtn2:active {
+	background-color: #ba2732;
+}
+.infotext1 {
+	font-family: "cuprum";
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #000000;
+	line-height: 1.5em;
+}
+.infotext2 {
+	font-family: "cuprum";
+	font-size: 14px;
+	color: #000000;
+	line-height: 1.5em;
+}
+.infotext3 {
+	font-family: "cuprum";
+	font-size: 21px;
+	line-height: 1em;
+	color: #000000;
+}
+.dash {
+	color: #fb565a;
+}
+.map {
+	margin-top: 10px;
+	margin-bottom: 34px;
+}
+footer {
+	width: 1200px;
+	height: 300px;
+}
+.subfooter1 {
+	width: 1200px;
+	height: 194px;
+	background-color: #32425c;
+}
+.subfooter2 {
+	width: 1200px;
+	height: 106px;
+	background-color: #293449;
 }
