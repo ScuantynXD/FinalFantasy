@@ -350,7 +350,7 @@ a:active {
 }
 .new {
 	position: relative;
-	top: -107px;
+	top: -106px;
 	left: 57px;
 }
 .tools {
@@ -673,6 +673,7 @@ a {
 }
 .item:hover {
 	box-shadow: 0px 0px 20px 2px gray;
+	border: 2px solid #ffffff;
 }
 .item:hover .pic1 {
 	display: none;
@@ -1076,6 +1077,8 @@ footer {
 	width: 220px;
 	height: 63px;
 	float: left;
+	margin-right: 173px;
+	margin-top: 0px;
 	background-color: #ee3643;
 	border-bottom: 5px solid #b52933;
 	text-transform: uppercase;
@@ -1090,4 +1093,12 @@ footer {
 }
 .logo2:active {
 	background-color: #ba2732;
+}
+.navfooter1 a {
+	display: block;
+	float: left;
+	margin-left: 60px;
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #f1f5f7;	
 }
