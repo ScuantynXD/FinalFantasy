@@ -279,7 +279,7 @@ input[placeholder]:focus {
 	float: left;	
 	margin-right: 10px;
 }
-.enter > p {
+.enter p {
 	margin: 0px;
 	padding: 0px;
 	font-family: "cuprum";
@@ -287,12 +287,12 @@ input[placeholder]:focus {
 	color: #000000;
 	line-height: 1.8em;
 }
-.enter > p:hover {
-	color: #ee3643;
-}
 .enter:hover .login{
 	background-image: url("../img/.icon-login blue.png");	
 	background-repeat: no-repeat;	
+}
+.enter:hover p {
+	color: #ee3643;
 }
 .enter > p:active {
 	color: #b2b2b2;
