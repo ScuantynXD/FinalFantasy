@@ -191,11 +191,11 @@ input[placeholder]:focus {
 .buy {
 	width: 150px;
 	height: 42px;
-	font-size: 23px;
+	font-size: 22px;
 	color:#ffffff;
 	font-family: "cuprum";
 	text-align: center;
-	line-height: 1.8em;
+	line-height: 1.9em;
 	float: left;
 	background-color: #63a63e;
 }
@@ -389,6 +389,9 @@ a:active {
 	font-size: 19px;
 	color: #ffffff;
 	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .btn1:hover {
 	background-color: #cccccc;
@@ -443,6 +446,9 @@ a:active {
 	font-size: 19px;
 	color: #ffffff;
 	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .btn2:hover {
 	background-color: #cccccc;
@@ -486,6 +492,9 @@ a:active {
 	font-size: 19px;
 	color: #ffffff;
 	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .btn3:hover {
 	background-color: #cccccc;
@@ -537,6 +546,9 @@ a:active {
 	font-size: 19px;
 	color: #ffffff;
 	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .btn5:hover {
 	background-color: #cccccc;
@@ -581,6 +593,9 @@ a:active {
 	font-size: 19px;
 	color: #ffffff;
 	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .btn6:hover {
 	background-color: #cccccc;
@@ -624,7 +639,10 @@ a:active {
 	text-transform: uppercase;
 	color: #fde4e6;
 	text-align: center;
-	border-radius: 3px;	
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	outline: none;	
 }
 a {
 	text-decoration: none;
@@ -1009,10 +1027,10 @@ a {
 	font-family: "cuprum-bold";
 	font-size: 26px;
 	line-height: 2.3em;
-	color: #ffffff;
-	cursor: pointer;
+	color: #ffffff;	
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
+	cursor: pointer;	
 }
 .modalbtn1:hover {
 	background-color: #293449;
@@ -1032,10 +1050,10 @@ a {
 	font-family: "cuprum-bold";
 	font-size: 26px;
 	line-height: 2.3em;
-	color: #ffffff;
-	cursor: pointer;
+	color: #ffffff;	
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
+	cursor: pointer;	
 }
 .modalbtn2:hover {
 	background-color: #293449;
@@ -1055,10 +1073,10 @@ a {
 	font-family: "cuprum-bold";
 	font-size: 26px;
 	line-height: 2.3em;
-	color: #ffffff;
-	cursor: pointer;
+	color: #ffffff;	
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
+	cursor: pointer;	
 }
 .modalbtn3:hover {
 	background-color: #293449;
@@ -1132,19 +1150,21 @@ a {
 	left: -163px;
 	top: -15px;
 	display: block;
+	float: left;
+	width: 400px;
 	margin: 0px;
 	padding: 0px;
+	padding-left: 0px;
 	font-family: "cuprum";
-	font-size: 14px;
+	font-size: 16px;
 	text-align: left;
-	line-height: 1.85em;
-	text-transform: uppercase;
+	line-height: 1.85em;	
 	color: black;
 }
 .windowbtn {
 	position: relative;
 	top: 30px;
-	left: 80px;
+	left: -163px;
 	width: 195px;
 	height: 38px;
 	background-color: #ee3643;
@@ -1154,7 +1174,10 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 2.1em;
-	color: black;
+	color: #ffffff;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .windowbtn:hover {	
 	background-color: #ca2c37;	
@@ -1193,6 +1216,9 @@ a {
 	text-transform: uppercase;
 	line-height: 2.1em;
 	color: #fde4e6;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .infobtn1:hover {
 	background-color: #ca2c37;
@@ -1211,6 +1237,9 @@ a {
 	text-transform: uppercase;
 	line-height: 2.1em;
 	color: #fde4e6;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 .infobtn2:hover {
 	background-color: #ca2c37;
@@ -1227,7 +1256,7 @@ a {
 }
 .infotext2 {
 	font-family: "cuprum";
-	font-size: 14px;
+	font-size: 16px;
 	color: #000000;
 	line-height: 1.5em;
 }
