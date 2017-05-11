@@ -502,13 +502,112 @@ a:active {
 .btn3:active {
 	background-color: #b2b2b2;
 }
-.slider {
+.slider1 {
+	display: block;
 	width: 620px;
 	height: 266px;
 	margin-top: 20px;
 	margin-right: 20px;
 	float: left;
-	background-image: url("../img/slider1.png");
+	background-image: url("../img/slider1.png");	
+}
+.slider1.show {
+	display: none;
+}
+.slider2 {
+	display: none;	
+	width: 620px;
+	height: 266px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	background-image: url("../img/slider2.png");
+}
+.slider2.show {
+	display: block;
+}
+.dots1 {
+	position: relative;
+	top: 125px;
+	left: 55px;
+	margin-right: 10px;
+}
+.dots2 {
+	position: relative;
+	top: 125px;
+	left: 55px;
+	margin-right: 10px;
+}
+.indicator1 {
+	position: relative;
+	top: 123px;
+	left: 9px;		
+}
+.indicator2 {
+	position: relative;
+	top: 123px;
+	left: 33px;		
+}
+.slidetxt1 {
+	position: relative;
+	top: 23px;
+	left: 26px;
+	display: block;
+	font-family: "cuprum-bold";
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.slidetxt2 {
+	position: relative;
+	top: 20px;
+	left: 26px;
+	display: block;
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;	
+}
+.slideleft, .slideleft2 {
+	position: relative;
+	top: 37px;
+	left: 25px;	
+	float: left;
+	cursor: pointer;
+}
+.slideright, .slideright2 {
+	position: relative;
+	top: 37px;
+	left: 552px;	
+	float: left;
+	cursor: pointer;
+}
+.slidebtn {
+	position: relative;
+	top: 126px;
+	left: -18px;
+	width: 195px;
+	height: 38px;
+	background-color: #ee3643;
+	border-radius: 3px;
+	font-family: "cuprum";
+	font-size: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.8em;
+	color: #ffffff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.slidebtn:hover {
+	background-color: #ca2c37;	
+}
+.slidebtn:active {
+	background-color: #ba2732;
 }
 .sale {
 	margin-top: 20px;
@@ -682,7 +781,7 @@ a {
 	text-transform: uppercase;
 	line-height: 2.1em;
 	border-radius: 3px;
-	cursor: pointer;
+	cursor: pointer;	
 	box-shadow: 0px 4px 0px 0px #367315;
 }
 .itembtn1:hover {
@@ -716,7 +815,7 @@ a {
 	text-transform: uppercase;
 	line-height: 1.7em;
 	border-radius: 3px;
-	cursor: pointer;
+	cursor: pointer;	
 	border: 3px solid #63a63e;
 }
 .itembtn2:hover {
