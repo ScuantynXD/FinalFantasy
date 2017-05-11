@@ -60,12 +60,16 @@ header {
 .mainfind {
 	float:left;
 }
-.srch {
-	float: left;
+.srch {	
 	position: relative;
-	top: 11px;
+	top: 13px;
 	left: 10px;
-	z-index: 1;
+	float: left;	
+	width: 17px;
+	height: 17px;	
+	background-image: url("../img/.icon-search.png");
+	background-repeat: no-repeat;
+	z-index: 1; 
 }
 input[placeholder] {
 	position: relative;
@@ -80,15 +84,24 @@ input[placeholder] {
 	border: none;
 	outline: none;
 }
-::-webkit-input-placeholder {color:#f0f1f2;}
-::-moz-placeholder          {color:#f0f1f2;}
-:-moz-placeholder           {color:#f0f1f2;}
-:-ms-input-placeholder      {color:#f0f1f2;}
+input::-webkit-input-placeholder {color:#f0f1f2;}
+input:focus::-webkit-input-placeholder {color: gray}
+input::-moz-placeholder          {color:#f0f1f2;}
+input:-moz-placeholder           {color:#f0f1f2;}
+input:-ms-input-placeholder      {color:#f0f1f2;}
 input[placeholder]:hover {
 	background-color: #263041;
 }
+.mainfind:hover .srch {
+	background-image: url("../img/.icon-search white.png");
+	background-repeat: no-repeat;
+}
 input[placeholder]:focus {
-	background-color: #ffffff;
+	background-color: #ffffff;	
+	background-image: url("../img/.icon-search red.png");
+	background-position: 10px 13px;
+	background-repeat: no-repeat;
+	z-index: 2;	
 }
 .bookmark {
 	width: 150px;
@@ -97,6 +110,16 @@ input[placeholder]:focus {
 	font-family: "cuprum";
 	text-align: center;
 	float: left;	
+}
+.bkm {
+	float: left;
+	position: relative;
+	top: 12px;
+	left: 10px;
+	width: 14px;
+	height: 16px;
+	background-image: url("../img/.icon-bookmark.png");	
+	background-repeat: no-repeat;
 }
 .bookmark > p {
 	color:#ffffff;
@@ -107,8 +130,17 @@ input[placeholder]:focus {
 .bookmark:hover {
 	background-color: #212a3a;
 }
+.bookmark:hover .bkm {
+	background-image: url("../img/.icon-bookmark white.png");	
+	background-repeat: no-repeat;
+}
 .bookmark:active {
+	background-color: #161d29;	
+}
+.bookmark:active .bkm {
 	background-color: #161d29;
+	background-image: url("../img/.icon-bookmark.png");	
+	background-repeat: no-repeat;	
 }
 .bookmark > p:active {
 	color:#999ca1;
@@ -121,6 +153,16 @@ input[placeholder]:focus {
 	text-align: center;
 	float: left;
 }
+.bsk {
+	float: left;
+	position: relative;
+	top: 12px;
+	left: 10px;
+	width: 17px;
+	height: 16px;
+	background-image: url("../img/.icon-basket.png");	
+	background-repeat: no-repeat;
+}
 .basket > p {
 	color:#ffffff;
 	padding: 0px;
@@ -130,23 +172,21 @@ input[placeholder]:focus {
 .basket:hover {
 	background-color: #212a3a;
 }
+.basket:hover .bsk {
+	background-color: #212a3a;
+	background-image: url("../img/.icon-basket white.png");	
+	background-repeat: no-repeat;
+}
 .basket:active {
-	background-color: #161d29;
+	background-color: #161d29;	
+}
+.basket:active .bsk {
+	background-color: #161d29;		
+	background-image: url("../img/.icon-basket.png");	
+	background-repeat: no-repeat;
 }
 .basket > p:active {
 	color:#999ca1;
-}
-.bkm {
-	float: left;
-	position: relative;
-	top: 12px;
-	left: 10px;
-}
-.bsk {
-	float: left;
-	position: relative;
-	top: 12px;
-	left: 10px;
 }
 .buy {
 	width: 150px;
@@ -220,6 +260,18 @@ input[placeholder]:focus {
 	float: left;
 	text-align: center;
 }
+.login {
+	float: left;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 20px;
+	height: 17px;	
+	top: 13px;
+	left: 15px;
+	background-image: url("../img/.icon-login.png");	
+	background-repeat: no-repeat;	
+}
 .enter {
 	width: 120px;
 	height: 45px;
@@ -238,16 +290,17 @@ input[placeholder]:focus {
 .enter > p:hover {
 	color: #ee3643;
 }
+.enter:hover .login{
+	background-image: url("../img/.icon-login blue.png");	
+	background-repeat: no-repeat;	
+}
 .enter > p:active {
 	color: #b2b2b2;
 }
-.login {
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	position: relative;
-	top: 13px;
-	left: 15px;	
+.enter:active .login{
+	color: #b2b2b2;
+	background-image: url("../img/.icon-login.png");	
+	background-repeat: no-repeat;
 }
 .reg {
 	width: 150px;
@@ -1157,6 +1210,42 @@ li {
 	float: left;
 	margin-left: 80px;
 	margin-right: 50px;	
+}
+.vk {
+	display: block;
+	float: left;
+	width: 42px;
+	height: 42px;
+	background-image: url("../img/vk.png");
+	background-repeat: no-repeat; 
+}
+.vk:hover {
+	background-image: url("../img/vkred.png");
+	background-repeat: no-repeat; 
+}
+.facebook {
+	display: block;
+	float: left;
+	width: 42px;
+	height: 42px;
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+}
+.facebook:hover {
+	background-image: url("../img/facebookred.png");
+	background-repeat: no-repeat; 
+}
+.instagramm {
+	display: block;
+	float: left;
+	width: 42px;
+	height: 42px;
+	background-image: url("../img/instagramm.png");
+	background-repeat: no-repeat;
+}
+.instagramm:hover {
+	background-image: url("../img/instagrammred.png");
+	background-repeat: no-repeat;
 }
 .mail {
 	position: relative;
