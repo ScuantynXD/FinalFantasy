@@ -1073,11 +1073,15 @@ footer {
 	height: 63px;
 	margin: 0px auto;
 }
+.navfooter2 {
+	width: 940px;
+	margin: 0px auto;
+}
 .logo2 {
 	width: 220px;
 	height: 63px;
 	float: left;
-	margin-right: 173px;
+	margin-right: 153px;
 	margin-top: 0px;
 	background-color: #ee3643;
 	border-bottom: 5px solid #b52933;
@@ -1094,11 +1098,110 @@ footer {
 .logo2:active {
 	background-color: #ba2732;
 }
+li {
+	display: inline-block;
+	margin-left: 20px;
+}
 .navfooter1 a {
-	display: block;
-	float: left;
-	margin-left: 60px;
 	font-family: "cuprum";
 	font-size: 24px;
-	color: #f1f5f7;	
+	color: #f1f5f7;
+	line-height: 4em;	
+}
+.navfooter1 a:hover {
+	text-decoration: underline;	
+}
+.navfooter1 a:active {
+	text-decoration: underline;
+	color: #929caa;	
+}
+.navfooter2 a {
+	font-family: "cuprum";
+	font-size: 24px;
+	color: #ffd180;
+	line-height: 4em;
+}
+.navfooter2 a:hover {
+	text-decoration: underline;	
+}
+.navfooter2 a:active {
+	text-decoration: underline;
+	color: #998a6e;	
+}
+.navfooter2 > p {
+	display: block;
+	float: left;
+	font-family: "cuprum";
+	font-size: 20px;
+	color: #f1f5f7;
+	line-height: 1.5em;
+}
+.info2 {
+	width: 940px;
+	margin: 0px auto;
+}
+.info2 > p {
+	display: block;
+	position: relative;
+	float: left;
+	top: 35px;
+	margin: 0px;
+	padding: 0px;
+	font-family: "cuprum";
+	font-size: 22px;
+	color: #ffffff;
+}
+.social {
+	position: relative;
+	top: 35px;
+	float: left;
+	margin-left: 80px;
+	margin-right: 50px;	
+}
+.mail {
+	position: relative;
+	top: 15px;
+	float: left;
+	margin-right: 30px;
+}
+.mail > p {
+	font-family: "cuprum";
+	font-size: 22px;
+	color: #ffffff;
+	line-height: 0.1em;
+}
+.mail > a {
+	font-family: "cuprum";
+	font-size: 22px;
+	color: #ffd180;
+}
+.mail > a:hover {
+	text-decoration: underline;
+}
+.mail > a:active {
+	text-decoration: none;
+	color: #ee3643;
+}
+.site {
+	position: relative;
+	top: 15px;
+	float: left;
+}
+.site > p {
+	font-family: "cuprum";
+	font-size: 22px;
+	color: #ffffff;
+	line-height: 0.1em;
+}
+.site > a {
+	font-family: "cuprum";
+	font-size: 22px;
+	color: #ffd180;
+}
+.site > a:hover {
+	text-decoration: underline;
+}
+.site > a:active {
+	text-decoration: none;
+	color: #ee3643;
 }
