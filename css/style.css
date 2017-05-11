@@ -670,8 +670,18 @@ a {
 .itembtn1:hover {
 	background-color: #5fbb2d;
 } 
+.itembtn1:hover .bsk {
+	background-color: #5fbb2d;
+	background-image: url("../img/.icon-basket white.png");	
+	background-repeat: no-repeat;
+} 
 .itembtn1:active {
+	background-color: #518534;	
+}
+.itembtn1:active .bsk{
 	background-color: #518534;
+	background-image: url("../img/.icon-basket.png");	
+	background-repeat: no-repeat;
 }
 .itembtn2 {
 	display: none;
@@ -753,12 +763,6 @@ a {
 }
 .item:nth-child(5) {
 	margin-right: 0px;
-}
-.itembsk {
-	float: left;
-	position: relative;
-	top: 10px;
-	left: 10px;
 }
 .name {
 	margin: 0px;
@@ -994,9 +998,9 @@ a {
 	margin-top: 10px;
 	padding-top: 60px;
 	float: left;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
-.modalbtn {
+.modalbtn1 {
 	width: 217px;
 	height: 60px;
 	padding-left: 23px;
@@ -1009,21 +1013,151 @@ a {
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
 }
-.modalbtn:hover {
+.modalbtn1:hover {
 	background-color: #293449;
 }
-.window {
+.modalbtn1:active {
+	background-color: #ffffff;
+	color: #32425c;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.modalbtn2 {
+	width: 217px;
+	height: 60px;
+	padding-left: 23px;
+	background-color: #32425c;
+	text-align: left;
+	font-family: "cuprum-bold";
+	font-size: 26px;
+	line-height: 2.3em;
+	color: #ffffff;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+}
+.modalbtn2:hover {
+	background-color: #293449;
+}
+.modalbtn2:active {
+	background-color: #ffffff;
+	color: #32425c;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.modalbtn3 {
+	width: 217px;
+	height: 60px;
+	padding-left: 23px;
+	background-color: #32425c;
+	text-align: left;
+	font-family: "cuprum-bold";
+	font-size: 26px;
+	line-height: 2.3em;
+	color: #ffffff;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+}
+.modalbtn3:hover {
+	background-color: #293449;
+}
+.modalbtn3:active {
+	background-color: #ffffff;
+	color: #32425c;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.window1 {	
+	display: none;
 	position: relative;
 	top: 10px;
 	left: 240px;
 	width: 700px;
 	height: 310px;
-	border: 1px solid red;
+	border: 1px solid #f2f6f8;
+	box-shadow: -3px 0 5px -4px;
+	background-image: url("../img/Layer1.png");
+	background-position: 233px 78px;
+	background-repeat: no-repeat;
 }
-.windowpic1 {
-	/*position: relative;
-	top: ;
-	left: -350px;*/
+.window1.show{
+	display: block;		
+}	
+.window2 {	
+	display: none;	
+	position: relative;
+	top: 10px;
+	left: 240px;
+	width: 700px;
+	height: 310px;
+	border: 1px solid #f2f6f8;
+	box-shadow: -3px 0 5px -4px;
+	background-image: url("../img/Layer2.png");
+	background-position: 320px 78px;
+	background-repeat: no-repeat;
+}
+.window2.show{
+	display: block;		
+}
+.window3 {	
+	display: none;
+	position: relative;
+	top: 10px;
+	left: 240px;
+	width: 700px;
+	height: 310px;
+	border: 1px solid #f2f6f8;
+	box-shadow: -3px 0 5px -4px;
+	background-image: url("../img/Layer3.png");
+	background-position: 233px 78px;
+	background-repeat: no-repeat;
+}
+.window3.show{
+	display: block;		
+}
+.windowtext1 {
+	position: relative;
+	left: -163px;
+	display: block;
+	font-family: "cuprum";
+	font-size: 40px;
+	line-height: 1.0em;
+	text-transform: uppercase;
+	color: #32425c;
+}
+.windowtext2 {
+	position: relative;
+	left: -163px;
+	top: -15px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-family: "cuprum";
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.85em;
+	text-transform: uppercase;
+	color: black;
+}
+.windowbtn {
+	position: relative;
+	top: 30px;
+	left: 80px;
+	width: 195px;
+	height: 38px;
+	background-color: #ee3643;
+	border-radius: 3px;
+	font-family: "cuprum";
+	font-size: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	color: black;
+}
+.windowbtn:hover {	
+	background-color: #ca2c37;	
+}
+.windowbtn:active {	
+	background-color: #ba2732;	
 }
 .info{
 	width: 1200px;
@@ -1045,7 +1179,7 @@ a {
 	padding-left: 170px;
 	float: left;
 }
-.infobtn1 {
+.infobtn1 {		
 	width: 220px;
 	height: 38px;
 	background-color: #ee3643;
@@ -1103,9 +1237,9 @@ a {
 .dash {
 	color: #fb565a;
 }
-.map {
+.map {	
 	margin-top: 10px;
-	margin-bottom: 34px;
+	margin-bottom: 34px;	
 }
 footer {
 	width: 1200px;
