@@ -1010,6 +1010,7 @@ a {
 	font-size: 26px;
 	line-height: 2.3em;
 	color: #ffffff;
+	cursor: pointer;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
 }
@@ -1032,6 +1033,7 @@ a {
 	font-size: 26px;
 	line-height: 2.3em;
 	color: #ffffff;
+	cursor: pointer;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
 }
@@ -1054,6 +1056,7 @@ a {
 	font-size: 26px;
 	line-height: 2.3em;
 	color: #ffffff;
+	cursor: pointer;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
 }
@@ -1306,7 +1309,7 @@ li {
 	font-family: "cuprum";
 	font-size: 24px;
 	color: #ffd180;
-	line-height: 4em;
+	line-height: 2.9em;
 }
 .navfooter2 a:hover {
 	text-decoration: underline;	
