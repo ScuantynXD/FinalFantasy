@@ -20,20 +20,20 @@ btn1.addEventListener("click", function() {
     btn3.classList.remove("active");
 });
 btn2.addEventListener("click", function() {
-    window2.classList.toggle("show");
     window1.classList.remove("show");
-    window3.classList.remove("show");
-    btn2.classList.toggle("active");
+    window2.classList.toggle("show");
+    window3.classList.remove("show");    
     btn1.classList.remove("active");
+    btn2.classList.toggle("active");
     btn3.classList.remove("active"); 
 });
-btn3.addEventListener("click", function() {
-    window3.classList.toggle("show");
+btn3.addEventListener("click", function() {   
     window1.classList.remove("show");
     window2.classList.remove("show");
-    btn3.classList.toggle("active");
+    window3.classList.toggle("show");
     btn1.classList.remove("active"); 
-    btn2.classList.remove("avtive"); 
+    btn2.classList.remove("avtive");
+    btn3.classList.toggle("active"); 
 });
 left.addEventListener("click", function() {
     slider1.classList.toggle("show");

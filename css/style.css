@@ -1198,10 +1198,10 @@ a {
 	background-position: 233px 78px;
 	background-repeat: no-repeat;
 }
-.window1.show{
+.window1.show {
 	display: block;		
 }
-.window1.hide{
+.window1.hide {
 	display: none;		
 }	
 .window2 {	
@@ -1217,10 +1217,10 @@ a {
 	background-position: 320px 78px;
 	background-repeat: no-repeat;
 }
-.window2.show{
+.window2.show {
 	display: block;		
 }
-.window2.hide{
+.window2.hide {
 	display: none;		
 }
 .window3 {	
@@ -1236,10 +1236,10 @@ a {
 	background-position: 233px 78px;
 	background-repeat: no-repeat;
 }
-.window3.show{
+.window3.show {
 	display: block;		
 }
-.window3.hide{
+.window3.hide {
 	display: none;		
 }
 .windowtext1 {
