@@ -16,7 +16,7 @@ btn1.addEventListener("click", function() {
     window2.classList.remove("show");
     window3.classList.remove("show");
     btn1.classList.toggle("active"); 
-    btn2.classList.remove("avtive");
+    btn2.classList.remove("aсtive");
     btn3.classList.remove("active");
 });
 btn2.addEventListener("click", function() {
@@ -32,7 +32,7 @@ btn3.addEventListener("click", function() {
     window2.classList.remove("show");
     window3.classList.toggle("show");
     btn1.classList.remove("active"); 
-    btn2.classList.remove("avtive");
+    btn2.classList.remove("aсtive");
     btn3.classList.toggle("active"); 
 });
 left.addEventListener("click", function() {
