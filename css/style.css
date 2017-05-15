@@ -342,6 +342,12 @@ nav > a {
 .list:hover {
 	background-color: #293449;
 }
+.list1 {
+	width: 123px;
+	line-height: 60px;
+	float: left;
+	background-color: #293449;
+}
 .list2 {
 	width: 202px;
 	line-height: 60px;
@@ -1119,13 +1125,13 @@ a {
 .modalbtn1 {
 	width: 217px;
 	height: 60px;
-	padding-left: 23px;
-	background-color: #32425c;
+	padding-left: 23px;	
 	text-align: left;
 	font-family: "cuprum-bold";
 	font-size: 26px;
 	line-height: 2.3em;
-	color: #ffffff;	
+	color: #ffffff;
+	background-color: #32425c;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
 	cursor: pointer;	
@@ -1134,10 +1140,11 @@ a {
 	background-color: #293449;
 }
 .modalbtn1.active {
-	background-color: #ffffff;
 	color: #32425c;
+	background-color: #ffffff;	
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
+
 }
 .modalbtn2 {
 	width: 217px;
