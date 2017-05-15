@@ -12,28 +12,28 @@ var slider1 = document.querySelector(".slider1");
 var slider2 = document.querySelector(".slider2");
 console.log("Привет");
 btn1.addEventListener("click", function() {
-    window1.classList.toggle("show");
+    window1.classList.remove("hide");
     window2.classList.remove("show");
-    window3.classList.remove("show");
-    btn1.classList.toggle("active"); 
+    window3.classList.remove("show");    
+    btn1.classList.remove("hide");
     btn2.classList.remove("active");
     btn3.classList.remove("active");
 });
 btn2.addEventListener("click", function() {
-    window1.classList.remove("show");
-    window2.classList.toggle("show");
+    window1.classList.add("hide");
+    window2.classList.add("show");
     window3.classList.remove("show");    
-    btn1.classList.remove("active");
-    btn2.classList.toggle("active");
+    btn1.classList.add("hide");
+    btn2.classList.add("active");
     btn3.classList.remove("active"); 
 });
 btn3.addEventListener("click", function() {   
-    window1.classList.remove("show");
+    window1.classList.add("hide");
     window2.classList.remove("show");
-    window3.classList.toggle("show");
-    btn1.classList.remove("active"); 
+    window3.classList.add("show");
+    btn1.classList.add("hide"); 
     btn2.classList.remove("active");
-    btn3.classList.toggle("active"); 
+    btn3.classList.add("active"); 
 });
 left.addEventListener("click", function() {
     slider1.classList.toggle("show");

@@ -1130,21 +1130,20 @@ a {
 	font-family: "cuprum-bold";
 	font-size: 26px;
 	line-height: 2.3em;
+	color: #32425c;
+	background-color: #ffffff;	
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;	
+	cursor: pointer;	
+}
+.modalbtn1.hide {	
 	color: #ffffff;
 	background-color: #32425c;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
-	cursor: pointer;	
 }
-.modalbtn1:hover {
+.modalbtn1.hide:hover {
 	background-color: #293449;
-}
-.modalbtn1.active {
-	color: #32425c;
-	background-color: #ffffff;	
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #ffffff;
-
 }
 .modalbtn2 {
 	width: 217px;
@@ -1193,7 +1192,7 @@ a {
 	border-bottom: 1px solid #ffffff;
 }
 .window1 {	
-	display: none;
+	display: block;
 	position: relative;
 	top: 10px;
 	left: 240px;
@@ -1204,9 +1203,6 @@ a {
 	background-image: url("../img/Layer1.png");
 	background-position: 233px 78px;
 	background-repeat: no-repeat;
-}
-.window1.show {
-	display: block;		
 }
 .window1.hide {
 	display: none;		
