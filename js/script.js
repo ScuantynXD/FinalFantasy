@@ -10,6 +10,10 @@ var left2 = document.querySelector(".slideleft2");
 var right2 = document.querySelector(".slideright2");
 var slider1 = document.querySelector(".slider1");
 var slider2 = document.querySelector(".slider2");
+var map = document.querySelector(".map");
+var mainmap = document.querySelector(".mainmap");
+var subinfo = document.querySelector(".subinfo");
+var cross = document.querySelector(".cross");
 console.log("Привет");
 btn1.addEventListener("click", function() {
     window1.classList.remove("hide");
@@ -50,4 +54,12 @@ left2.addEventListener("click", function() {
 right2.addEventListener("click", function() {
     slider1.classList.toggle("show");
     slider2.classList.toggle("show");    
+});
+map.addEventListener("click", function() {
+   subinfo.classList.add("hide");
+   mainmap.classList.add("active");
+});
+cross.addEventListener("click", function() {
+   subinfo.classList.remove("hide");
+   mainmap.classList.remove("active");
 });

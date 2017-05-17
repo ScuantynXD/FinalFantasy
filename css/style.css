@@ -14,6 +14,10 @@
 	font-family: "pt-sans-bold";
 	src: url("../css/pt-sans-bold.ttf");
 }
+@font-face {
+	font-family: "pt-sans";
+	src: url("../css/pt-sans.ttf");
+}
 html {
 	margin: 0px;
 	padding: 0px;
@@ -763,7 +767,7 @@ a {
 	background-color: #ba2732;
 }
 .img {
-	width: 215px;
+	width: 212px;
 	height: 170px;
 	margin: 0px auto;
 	border: 1px solid #ffffff;
@@ -926,8 +930,8 @@ a {
 }
 .img4 {
 	position: relative;
-	top: -64px;
-	width: 215px;
+	top: -62px;
+	width: 212px;
 	height: 170px;
 	margin: 0px auto;
 	border: 1px solid #ffffff;
@@ -1299,14 +1303,18 @@ a {
 .windowbtn:active {	
 	background-color: #ba2732;	
 }
-.info{
+.info{	
 	width: 1200px;
 	height: 538px;
 }
 .subinfo {
+	display: block;
 	width: 940px;
 	height: 800px;
 	margin: 0px auto;
+}
+.subinfo.hide {
+	display: none;
 }
 .infoleft {
 	width: 470px;
@@ -1385,7 +1393,24 @@ a {
 }
 .map {	
 	margin-top: 10px;
-	margin-bottom: 44px;	
+	margin-bottom: 44px;
+	cursor: pointer;	
+}
+.mainmap {
+	display: none;
+	width: 940px;
+	height: 411px;
+	margin: 0px auto;
+	padding-top: 13px;	
+}
+.mainmap.active {
+	display: block;
+}
+.cross {
+	position: relative;
+	top: 0px;
+	left: 950px;
+	cursor: pointer;	
 }
 footer {
 	width: 1200px;
@@ -1761,8 +1786,7 @@ li {
 .category {
 	width: 220px;
 	height: 1200px;
-	float: left;
-	/*border: 1px solid red;*/
+	float: left;	
 	margin-right: 20px; 
 }
 .filter {
@@ -1855,6 +1879,101 @@ li {
 hr {
 	border: 1px solid #e5e5e5;	
 }
+.manufacturers input {
+	display: none;	
+}
+.firm {
+	position: relative;
+	padding-left: 30px;
+	font-family: "pt-sans";
+	font-size: 16px;
+	color:black;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	cursor: pointer;
+}
+.firm:before {
+	position: absolute;
+	content: '';
+	top: 0px;
+	left: 0px;
+	width: 26px;
+	height: 22px;	
+	background-image: url("../img/.icon-check-off.png");	
+	background-repeat: no-repeat;
+}
+.check1:checked + .firm:before {
+	background-image: url("../img/.icon-check-on.png");	
+	background-repeat: no-repeat;
+}
+.check2:checked + .firm:before {
+	background-image: url("../img/.icon-check-on.png");	
+	background-repeat: no-repeat;
+}
+.check3:checked + .firm:before {
+	background-image: url("../img/.icon-check-on.png");	
+	background-repeat: no-repeat;
+}
+.check4:checked + .firm:before {
+	background-image: url("../img/.icon-check-on.png");	
+	background-repeat: no-repeat;
+}
+.check5:checked + .firm:before {
+	background-image: url("../img/.icon-check-on.png");	
+	background-repeat: no-repeat;
+}
+.powersupply input {
+	display: none;	
+}
+.supply {
+	position: relative;
+	padding-left: 30px;
+	font-family: "pt-sans";
+	font-size: 16px;
+	color:black;
+	text-transform: uppercase;
+	line-height: 2.1em;
+	cursor: pointer;
+}
+.supply:before {
+	position: absolute;
+	content: '';
+	top: -2px;
+	left: 0px;
+	width: 26px;
+	height: 26px;	
+	background-image: url("../img/.icon-circle.png");	
+	background-repeat: no-repeat;
+}
+.power1:checked + .supply:before {
+	background-image: url("../img/.icon-circle-dot.png");		
+	background-repeat: no-repeat;
+}
+.power2:checked + .supply:before {
+	background-image: url("../img/.icon-circle-dot.png");	
+	background-repeat: no-repeat;
+}
+.categorybtn {
+	position: relative;
+	top: 75px;
+	left: ;
+	width: 138px;
+	height: 36px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	background-color: #ffffff;
+	font-family: "pt-sans";
+	font-size: 15px;
+	color:black;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.categorybtn:hover {
+	border: 1px solid #bdc6ca;
+}
+.categorybtn:active {
+	border: 1px solid #ee3643;
+}
 .catalog {
 	width: 700px;
 	height: 1200px;
@@ -1882,8 +2001,8 @@ hr {
 	display: block;
 	float: left;
 	font-family: "cuprum";
-	font-size: 17px;	
-	color: #acaaa5;
+	font-size: 17px;
+	color: #ee3643;	
 	margin-top: 10px;
 	margin-right: 70px;
 	text-transform: uppercase;
@@ -1893,8 +2012,8 @@ hr {
 	color: black;
 	border-bottom: 1px dotted #ee3643;
 }
-.sortingtext2.active {		
-	color: #ee3643;
+.sortingtext2.hide {
+	color: #acaaa5;
 	border-bottom: none;
 }
 .sortingtext3 {
@@ -2018,11 +2137,12 @@ hr {
 }
 .cataloglistbtn1 {
 	width: 36px;
-	height: 36px;
-	background-color: #ffffff;
+	height: 36px;	
+	border: 1px solid #ee3643;
+	background-color: #ee3643;
+	color: #fef2f2;
 	border-radius: 3px;
-	margin-right: 10px;
-	border: 1px solid #e5e5e5;
+	margin-right: 10px;	
 	cursor: pointer;
 	outline: none;
 }
@@ -2032,10 +2152,10 @@ hr {
 .cataloglistbtn1:active {
 	border: 1px solid #ee3643;
 }
-.cataloglistbtn1.active {
-	border: 1px solid #ee3643;
-	background-color: #ee3643;
-	color: #fef2f2;
+.cataloglistbtn1.hide {
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	color:black;
 }
 .cataloglistbtn2 {
 	width: 36px;
