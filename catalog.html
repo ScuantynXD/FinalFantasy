@@ -98,7 +98,34 @@
 			</div>
 			<div class="market">
 				<div class="category">
-
+					<div class="filter">фильтр:</div>
+					<p>цена:</p>
+					<form action="form.php" method="GET">
+						<div class="range-filter">
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="toggle toggle-min"></div>
+								<div class="toggle toggle-max"></div>
+							</div>
+							<div class="price-controls">
+								<label class="min-price">
+									<input name="min-price" type="text" value="0">
+								</label>
+								<div class="delimiter">&mdash;</div>								
+								<label class="max-price">
+									<input name="max-price" type="text" value="30000">
+								</label>
+							</div>
+						</div>
+					</form>
+					<hr>
+					<p>производители:</p>
+					<hr>
+					<p>питание:</p>
+					<hr>
+					<button>показать</button>
 				</div>
 				<div class="catalog">
 					<div class="sorting">
