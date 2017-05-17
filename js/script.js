@@ -14,6 +14,9 @@ var map = document.querySelector(".map");
 var mainmap = document.querySelector(".mainmap");
 var subinfo = document.querySelector(".subinfo");
 var cross = document.querySelector(".cross");
+var infobtn = document.querySelector(".infobtn2");
+var writeus = document.querySelector(".writeus");
+var cross2 = document.querySelector(".writeuscross");
 console.log("Привет");
 btn1.addEventListener("click", function() {
     window1.classList.remove("hide");
@@ -62,4 +65,10 @@ map.addEventListener("click", function() {
 cross.addEventListener("click", function() {
    subinfo.classList.remove("hide");
    mainmap.classList.remove("active");
+});
+infobtn.addEventListener("click", function() {   
+   writeus.classList.toggle("active");
+});
+cross2.addEventListener("click", function() {   
+   writeus.classList.remove("active");
 });

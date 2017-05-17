@@ -79,7 +79,7 @@ header {
 	background-repeat: no-repeat;
 	z-index: 1; 
 }
-input[placeholder] {
+.mainfind input[placeholder] {
 	position: relative;
 	top: -17px;
 	width: 270px;
@@ -92,19 +92,19 @@ input[placeholder] {
 	border: none;
 	outline: none;
 }
-input::-webkit-input-placeholder {color:#f0f1f2;}
-input:focus::-webkit-input-placeholder {color: gray}
-input::-moz-placeholder          {color:#f0f1f2;}
-input:-moz-placeholder           {color:#f0f1f2;}
-input:-ms-input-placeholder      {color:#f0f1f2;}
-input[placeholder]:hover {
+.mainfind input::-webkit-input-placeholder {color:#f0f1f2;}
+.mainfind input:focus::-webkit-input-placeholder {color: gray}
+.mainfind input::-moz-placeholder          {color:#f0f1f2;}
+.mainfind input:-moz-placeholder           {color:#f0f1f2;}
+.mainfind input:-ms-input-placeholder      {color:#f0f1f2;}
+.mainfind input[placeholder]:hover {
 	background-color: #263041;
 }
 .mainfind:hover .srch {
 	background-image: url("../img/.icon-search white.png");
 	background-repeat: no-repeat;
 }
-input[placeholder]:focus {
+.mainfind input[placeholder]:focus {
 	background-color: #ffffff;	
 	background-image: url("../img/.icon-search red.png");
 	background-position: 10px 13px;
@@ -1368,6 +1368,92 @@ a {
 }
 .infobtn2:active {
 	background-color: #ba2732;
+}
+.writeus {
+	display: none;
+	position: absolute;
+	top: 258%;
+	left: 33%;		
+	width: 620px;
+	height: 380px;	
+	background-color: #ffffff;
+	border-top: 7px solid #ee3643;	
+	box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.5);
+}
+.writeus.active {
+	display: block;
+}
+.writeus form {
+	width: 450px;
+	margin: 0px auto;
+}
+.writeus input {	
+	width: 184px;
+	height: 34px;
+	padding-left: 16px;
+	padding-right: 16px;	
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+}
+.writeus label {
+	display: block;
+	float: left;	
+}
+.writeus label:nth-child(odd) {
+	margin-right: 10px;	
+}
+.writeus input[placeholder] {
+	background-color: #ffffff;
+	color: #999999;
+	font-family: "pt-san";
+	font-size: 15px;
+}
+.writeus p {
+	font-family: "cuprum";
+	font-size: 20px;
+	color: black;
+}
+.writeus textarea {	
+	width: 428px;
+	height: 110px;		
+	padding-left: 16px;
+	margin-bottom: 38px;
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+}
+.writeus textarea[placeholder] {
+	background-color: #ffffff;
+	color: #999999;
+	font-family: "pt-san";
+	font-size: 15px;
+}
+.writeusbtn {
+	width: 620px;
+	height: 112px;	
+	background-color: #f1f1f1;
+}
+.writeusbtn input {
+	width: 460px;
+	height: 38px;
+	background-color: #ee3643;
+	border: none;
+	margin-top: 35px;
+	font-family: "cuprum";
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+}
+.writeusbtn input:hover {	
+	background-color: #ca2c37;	
+}
+.writeusbtn input:active {	
+	background-color: #ba2732;	
+}
+.writeuscross {
+	position: relative;
+	top: 20px;
+	left: 580px;
+	cursor: pointer;	
 }
 .infotext1 {
 	font-family: "cuprum";
