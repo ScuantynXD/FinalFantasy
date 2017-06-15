@@ -75,7 +75,7 @@ header {
 	float: left;	
 	width: 17px;
 	height: 17px;	
-	background-image: url("../img/.icon-search.png");
+	background-image: url("../img/icon-search.png");
 	background-repeat: no-repeat;
 	z-index: 1; 
 }
@@ -101,12 +101,12 @@ header {
 	background-color: #263041;
 }
 .mainfind:hover .srch {
-	background-image: url("../img/.icon-search white.png");
+	background-image: url("../img/icon-search white.png");
 	background-repeat: no-repeat;
 }
 .mainfind input[placeholder]:focus {
 	background-color: #ffffff;	
-	background-image: url("../img/.icon-search red.png");
+	background-image: url("../img/icon-search red.png");
 	background-position: 10px 13px;
 	background-repeat: no-repeat;
 	z-index: 2;	
@@ -126,7 +126,7 @@ header {
 	left: 10px;
 	width: 14px;
 	height: 16px;
-	background-image: url("../img/.icon-bookmark.png");	
+	background-image: url("../img/icon-bookmark.png");	
 	background-repeat: no-repeat;
 }
 .bookmark > p {
@@ -139,7 +139,7 @@ header {
 	background-color: #212a3a;
 }
 .bookmark:hover .bkm {
-	background-image: url("../img/.icon-bookmark white.png");	
+	background-image: url("../img/icon-bookmark white.png");	
 	background-repeat: no-repeat;
 }
 .bookmark:active {
@@ -147,7 +147,7 @@ header {
 }
 .bookmark:active .bkm {
 	background-color: #161d29;
-	background-image: url("../img/.icon-bookmark.png");	
+	background-image: url("../img/icon-bookmark.png");	
 	background-repeat: no-repeat;	
 }
 .bookmark > p:active {
@@ -168,7 +168,7 @@ header {
 	left: 10px;
 	width: 17px;
 	height: 16px;
-	background-image: url("../img/.icon-basket.png");	
+	background-image: url("../img/icon-basket.png");	
 	background-repeat: no-repeat;
 }
 .basket > p {
@@ -182,7 +182,7 @@ header {
 }
 .basket:hover .bsk {
 	background-color: #212a3a;
-	background-image: url("../img/.icon-basket white.png");	
+	background-image: url("../img/icon-basket white.png");	
 	background-repeat: no-repeat;
 }
 .basket:active {
@@ -190,7 +190,7 @@ header {
 }
 .basket:active .bsk {
 	background-color: #161d29;		
-	background-image: url("../img/.icon-basket.png");	
+	background-image: url("../img/icon-basket.png");	
 	background-repeat: no-repeat;
 }
 .basket > p:active {
@@ -277,7 +277,7 @@ header {
 	height: 17px;	
 	top: 13px;
 	left: 15px;
-	background-image: url("../img/.icon-login.png");	
+	background-image: url("../img/icon-login.png");	
 	background-repeat: no-repeat;	
 }
 .enter {
@@ -296,7 +296,7 @@ header {
 	line-height: 1.8em;
 }
 .enter:hover .login{
-	background-image: url("../img/.icon-login blue.png");	
+	background-image: url("../img/icon-login blue.png");	
 	background-repeat: no-repeat;	
 }
 .enter:hover p {
@@ -307,7 +307,7 @@ header {
 }
 .enter:active .login{
 	color: #b2b2b2;
-	background-image: url("../img/.icon-login.png");	
+	background-image: url("../img/icon-login.png");	
 	background-repeat: no-repeat;
 }
 .reg {
@@ -803,7 +803,7 @@ a {
 } 
 .itembtn1:hover .bsk {
 	background-color: #5fbb2d;
-	background-image: url("../img/.icon-basket white.png");	
+	background-image: url("../img/icon-basket white.png");	
 	background-repeat: no-repeat;
 } 
 .itembtn1:active {
@@ -811,7 +811,7 @@ a {
 }
 .itembtn1:active .bsk{
 	background-color: #518534;
-	background-image: url("../img/.icon-basket.png");	
+	background-image: url("../img/icon-basket.png");	
 	background-repeat: no-repeat;
 }
 .itembtn2 {
@@ -1127,8 +1127,7 @@ a {
 	height: 250px;
 	margin-top: 10px;
 	padding-top: 60px;
-	float: left;
-	/*border: 1px solid red;*/
+	float: left;	
 }
 .modalbtn1 {
 	width: 217px;
@@ -1705,7 +1704,7 @@ li {
 }
 .basket2:hover .bsk {
 	background-color: #212a3a;
-	background-image: url("../img/.icon-basket white.png");	
+	background-image: url("../img/icon-basket white.png");	
 	background-repeat: no-repeat;
 }
 .basket2:active {
@@ -1713,7 +1712,7 @@ li {
 }
 .basket2:active .bsk {
 	background-color: #161d29;		
-	background-image: url("../img/.icon-basket.png");	
+	background-image: url("../img/icon-basket.png");	
 	background-repeat: no-repeat;
 }
 .basket2 > p:active {
@@ -1755,7 +1754,7 @@ li {
 	height: 18px;
 	margin: 0px;
 	padding: 0px;
-	background-image: url("../img/.icon-user.png");	
+	background-image: url("../img/icon-user.png");	
 	background-repeat: no-repeat;
 }
 .logout {	
@@ -1765,23 +1764,23 @@ li {
 	float: left;
 	width: 21px;
 	height: 17px;
-	background-image: url("../img/.icon-logout.png");	
+	background-image: url("../img/icon-logout.png");	
 	background-repeat: no-repeat;
 }
 .private:hover .user {
-	background-image: url("../img/.icon-user blue.png");	
+	background-image: url("../img/icon-user blue.png");	
 	background-repeat: no-repeat;
 }
 .logout:hover{
-	background-image: url("../img/.icon-logout blue.png");	
+	background-image: url("../img/icon-logout blue.png");	
 	background-repeat: no-repeat;
 }
 .private:active .user {
-	background-image: url("../img/.icon-user.png");	
+	background-image: url("../img/icon-user.png");	
 	background-repeat: no-repeat;
 }
 .private:active .logout {
-	background-image: url("../img/.icon-logout.png");	
+	background-image: url("../img/icon-logout.png");	
 	background-repeat: no-repeat;
 }
 .private:active p {
@@ -1846,7 +1845,7 @@ li {
 	width: 15px;
 	height: 12px;
 	margin-right: 15px;
-	background-image: url("../img/.icon-home.png");	
+	background-image: url("../img/icon-home.png");	
 	background-repeat: no-repeat;
 }
 .nametool {
@@ -1985,27 +1984,27 @@ hr {
 	left: 0px;
 	width: 26px;
 	height: 22px;	
-	background-image: url("../img/.icon-check-off.png");	
+	background-image: url("../img/icon-check-off.png");	
 	background-repeat: no-repeat;
 }
 .check1:checked + .firm:before {
-	background-image: url("../img/.icon-check-on.png");	
+	background-image: url("../img/icon-check-on.png");	
 	background-repeat: no-repeat;
 }
 .check2:checked + .firm:before {
-	background-image: url("../img/.icon-check-on.png");	
+	background-image: url("../img/icon-check-on.png");	
 	background-repeat: no-repeat;
 }
 .check3:checked + .firm:before {
-	background-image: url("../img/.icon-check-on.png");	
+	background-image: url("../img/icon-check-on.png");	
 	background-repeat: no-repeat;
 }
 .check4:checked + .firm:before {
-	background-image: url("../img/.icon-check-on.png");	
+	background-image: url("../img/icon-check-on.png");	
 	background-repeat: no-repeat;
 }
 .check5:checked + .firm:before {
-	background-image: url("../img/.icon-check-on.png");	
+	background-image: url("../img/icon-check-on.png");	
 	background-repeat: no-repeat;
 }
 .powersupply input {
@@ -2028,15 +2027,15 @@ hr {
 	left: 0px;
 	width: 26px;
 	height: 26px;	
-	background-image: url("../img/.icon-circle.png");	
+	background-image: url("../img/icon-circle.png");	
 	background-repeat: no-repeat;
 }
 .power1:checked + .supply:before {
-	background-image: url("../img/.icon-circle-dot.png");		
+	background-image: url("../img/icon-circle-dot.png");		
 	background-repeat: no-repeat;
 }
 .power2:checked + .supply:before {
-	background-image: url("../img/.icon-circle-dot.png");	
+	background-image: url("../img/icon-circle-dot.png");	
 	background-repeat: no-repeat;
 }
 .categorybtn {
@@ -2148,15 +2147,15 @@ hr {
 	height: 10px;
 	float: left;
 	cursor: pointer;
-	background-image: url("../img/.icon-up-dir.png");	
+	background-image: url("../img/icon-up-dir.png");	
 	background-repeat: no-repeat;
 }
 .sortup:hover {
-	background-image: url("../img/.icon-up-dir-black.png");	
+	background-image: url("../img/icon-up-dir-black.png");	
 	background-repeat: no-repeat;
 }
 .sortup.active {
-	background-image: url("../img/.icon-up-dir-red.png");	
+	background-image: url("../img/icon-up-dir-red.png");	
 	background-repeat: no-repeat;
 }
 .sortdown {
@@ -2167,15 +2166,15 @@ hr {
 	height: 10px;
 	float: left;
 	cursor: pointer;
-	background-image: url("../img/.icon-down-dir.png");	
+	background-image: url("../img/icon-down-dir.png");	
 	background-repeat: no-repeat;
 }
 .sortdown:hover {
-	background-image: url("../img/.icon-down-dir-black.png");	
+	background-image: url("../img/icon-down-dir-black.png");	
 	background-repeat: no-repeat;
 }
 .sortdown.active {
-	background-image: url("../img/.icon-down-dir-red.png");	
+	background-image: url("../img/icon-down-dir-red.png");	
 	background-repeat: no-repeat;
 }
 .itemcatalog {
